@@ -73,3 +73,69 @@ header .logotipo{
 	z-index:10;
 	transform: translate(-50%, 0%);
 }
+
+/*=============================================
+BANNER
+=============================================*/
+
+.fade-slider{
+	position:fixed;
+	z-index:-1;
+	top:0;
+	left:0;
+}
+
+.bannerEstatico{
+	background:rgba(0,0,0,0);
+}
+
+.textoBanner{
+	position:absolute;
+	width:50%;
+	text-align: center;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	color:white;
+}
+
+.textoBanner h1{
+	font-family: 'Chewy', cursive;
+	font-size:60px;
+}
+
+.textoBanner h5{
+	line-height:30px;
+	font-weight: 100;
+	font-size:18px;
+}
+
+/*=============================================
+MENÚ
+=============================================*/
+
+.menu{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:100;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,.8);
+	overflow-x:hidden;
+	font-weight:300;
+	display:none;
+	font-size:34px;
+	line-height:70px;
+}
+
+.btnClose{
+	position:absolute;
+	top:100px;
+	right:25%;
+	color:white;
+}
+
+.menu .nav{
+	margin-top:10%;
+}

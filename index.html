@@ -19,6 +19,10 @@
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
 
+    <!-- JdSlider -->
+	<!-- https://www.jqueryscript.net/slider/Carousel-Slideshow-jdSlider.html -->
+    <link rel="stylesheet" href="css/plugins/jquery.jdSlider.css">
+    
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -127,11 +131,142 @@
         </ul>
     </div>
 
+    <!--=====================================
+    BANNER
+    ======================================-->
+
+    <div class="bannerEstatico"></div>
+
+    <section class="jd-slider fade-slider">
+        
+        <div class="slide-inner">
+            
+            <ul class="slide-area">
+                
+                <li>
+                    
+                    <img src="img/banner01.jpg" alt="Juanito Travel en el mar" class="img-fluid">
+
+                </li>
+
+                <li>
+                    
+                    <img src="img/banner02.jpg" alt="Juanito Travel en el mar" class="img-fluid">
+
+                </li>
+
+                <li>
+                    
+                    <img src="img/banner03.jpg" alt="Juanito Travel en el mar" class="img-fluid">
+
+                </li>
+
+                <li>
+                    
+                    <img src="img/banner04.jpg" alt="Juanito Travel en el mar" class="img-fluid">
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="controller d-none">
+            
+            <a class="auto" href="#">
+                
+                <i class="fas fa-play fa-xs"></i>
+                <i class="fas fa-pause fa-xs"></i>
+
+            </a>
+
+            <div class="indicate-area"></div>
+
+        </div>
+
+    </section>
+
+    <!--=====================================
+    BUSCADOR PARA MÓVIL
+    ======================================-->
+
+    <div class="container-fluid d-block d-md-none py-3 bg-white">
+        
+        <div class="input-group input-group-sm">
+
+            <input type="text" class="form-control" placeholder="Buscar">
+
+            <div class="input-group-append">
+
+                <span class="input-group-text"><i class="fas fa-search"></i></span>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--=====================================
+    MENU
+    ======================================-->
+
+    <div class="container-fluid menu">
+
+        <a href="#" class="btnClose">X</a>
+
+        <ul class="nav flex-column text-center">
+
+            <li class="nav-item">
+
+                <a class="nav-link text-white" href="categorias.html">Mi viaje por Suramérica</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link text-white" href="categorias.html">Mi viaje por Centroamérica</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link text-white" href="categorias.html">Mi viaje por Norteamérica</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link text-white" href="categorias.html">Mi viaje por Europa</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link text-white" href="categorias.html">Mi viaje por Asia</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link text-white" href="categorias.html">Mi viaje por Africa</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link text-white" href="categorias.html">Mi viaje por Oceanía</a>
+
+            </li>
+
+        </ul>
+
+    </div>
+
 
     <!--=====================================
 	PLUGINS DE JS
 	======================================-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
@@ -139,6 +274,10 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
+    <!-- JdSlider -->
+	<!-- https://www.jqueryscript.net/slider/Carousel-Slideshow-jdSlider.html -->
+    <script src="js/plugins/jquery.jdSlider-latest.js"></script>
+    
     <script src="js/script.js"></script>
 </body>
 </html>
